@@ -1,0 +1,7 @@
+### Eclipse ###
+**/surefire-reports
+**/target
+**/test-output
+*.html
+*.class
+*.prefs

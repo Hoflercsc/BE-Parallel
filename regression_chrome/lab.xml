@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Regression Chorme" parallel="false" preserve-order="true">
+
+    <!-- regression -->
+	<!--  sample tests workroom home 
+
+	<test name="create_welcome_message_with_iframe_video">
+		<classes>
+			<class
+				name="tests_workroom_home.CreateWelcomeMessageWithIframeVideo"></class>
+		</classes>
+	</test>
+	
+	<test name="Error_Message_Copy_Base_64_Image">
+		<classes>
+			<class
+				name="tests_workroom_home.ErrorMessageCopyBase64Image"></class>
+		</classes>
+	</test>
+    
+	<test name="create_welcome_message_with_line_breaks">
+		<classes>
+			<class
+				name="tests_workroom_home.CreateWelcomeMessageWithLineBreaks"></class>
+		</classes>
+	</test>
+	-->
+	
+	<!-- smoke test chrome -->
+	<test name="BE Survey Test Cases">
+		<classes>
+			<class name="test_critical_scenarios.CreateSurveyQuestionsAndDelete"></class>
+		</classes>
+	</test>
+	 
+	 <test name="HL Create Book Secured Category - Test Cases">
+		<classes>
+			<class name="test_critical_scenarios.CreateBookSecuredCategory"></class>
+		</classes>
+	</test>
+  
+	<test name="HL Create Delete Edit Scanned PDF - Test Cases">
+		<classes>
+			<class name="test_critical_scenarios.CreateEditDeleteBookScannedPDF"></class>
+		</classes>
+	</test>
+	 
+	<test name="HL Set User WorkroomAdmin No Event Permission - Test Cases">
+		<classes>
+			<class name="test_critical_scenarios.SetUserWorkroomMemberNoEventPermission"></class>
+		</classes>
+	</test>
+	
+	<test name="HL Reset User Password - Test Cases">
+		<classes>
+			<class name="test_critical_scenarios.ResetUserPassword"></class>
+		</classes>
+	</test>
+	
+    <test name="HL Create Book Create Event Attach Book Attach Resource - Test Cases">
+		<classes>
+			<class name="test_critical_scenarios.CreateBookCreateEventAttachBookAttachResource"></class>
+		</classes>
+	</test>
+	
+    <test name="HL Create Edit Deactivate Delete Userprofile - Test Cases">
+		<classes>
+			<class name="test_critical_scenarios.CreateEditDeactivateDeleteUserProfile"></class>
+		</classes>
+	</test>
+	
+    <test name="BE Task Test Cases">
+		<classes>
+			<class name="test_critical_scenarios.CreateTaskAndTaskGroup"></class>
+		</classes>
+	</test>
+	
+   <test name="HL Create Delete Workgroup - Test Cases">
+		<classes>
+			<class name="test_critical_scenarios.CreateDeleteWorkgroup"></class>
+		</classes>
+	</test>
+	 
+	<test name="HL Create Delete Workroom - Test Cases">
+		<classes>
+			<class name="test_critical_scenarios.CreateDeleteWorkroom"></class>
+		</classes>
+	</test>
+	 
+	<test name="HL Create Delete WorkGroup Attach WorkRoom- Test Cases">
+		<classes>
+			<class name="test_critical_scenarios.CreateWorkgroupAttachWorkroom"></class>
+		</classes>
+	</test>
+	
+	<test name="HL Create Book Upload My Own Book - Test Cases">
+		<classes>
+			<class name="test_critical_scenarios.CreateBookUploadMyOwnBook"></class>
+		</classes>
+	</test>
+	
+	<test name="HL Create Delete HandBook - Test Cases">
+		<classes>
+			<class name="test_critical_scenarios.CreateEditDeleteHandbook"></class>
+		</classes>
+	</test>
+	
+	<test name="HL Message Workroom - Test Cases">
+		<classes>
+			<class name="test_critical_scenarios.CreateMessageWorkroom"></class>
+		</classes>
+	</test>
+	
+	<!--
+	<test name="HL Run Attendance Report - Test Cases">
+		<classes>
+			<class name="test_critical_scenarios.RunAttendanceReport"></class>
+		</classes>
+	</test>
+	-->
+	<test name="HL Book Template - Test Cases">
+		<classes>
+			<class name="test_critical_scenarios.CreateEditDeleteBookTemplate"></class>
+		</classes>
+	</test>
+	
+	<test name="HL Create_Resource_Library_Folder_Add_File- Test Cases">
+		<classes>
+			<class name="test_critical_scenarios.CreateResourceLibraryFolderAddFile"></class>
+		</classes>
+	</test>
+	
+	<test name="HL Create Edit Copy Delete Event - Test Cases">
+		<classes>
+			<class name="test_critical_scenarios.CreateEditCopyDeleteEvent"></class>
+		</classes>
+	</test>
+	
+	<test name="BE Poll Test Cases">
+		<classes>
+			<class name="test_critical_scenarios.CreatePollQuestionAndDelete"></class>
+		</classes>
+	</test>
+
+	<test name="BE Discussion Test Cases">
+		<classes>
+			<class name="test_critical_scenarios.CreateDiscussionSenarios1"></class>
+		</classes>
+	</test>
+	
+	<test name="login_english_nonadmin">
+		<classes>
+			<class name="test_critical_scenarios.LoginEnglishNonAdmin"></class>
+		</classes>
+	</test>
+	
+	<test name="login_english_systemadmin">
+		<classes>
+			<class name="test_critical_scenarios.LoginEnglishSystemAdmin"></class>
+		</classes>
+	</test>
+	
+	<test name="login_english_workroomadmin">
+		<classes>
+			<class name="test_critical_scenarios.LoginEnglishWorkroomAdmin"></class>
+		</classes>
+	</test>
+	
+	<test name="login_foreign_language_nonadmin">
+		<classes>
+			<class name="test_critical_scenarios.LoginForeignLanguageNonAdmin"></class>
+		</classes>
+	</test>
+	
+	<test name="login_foreign_language_systemadmin">
+		<classes>
+			<class name="test_critical_scenarios.LoginForeignLanguageSystemAdmin"></class>
+		</classes>
+	</test>
+	
+	<test name="login_foreign_language_workroomadmin">
+		<classes>
+			<class name="test_critical_scenarios.LoginForeignLanguageWorkroomAdmin"></class>
+		</classes>
+	</test>
+	
+</suite>

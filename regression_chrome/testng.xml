@@ -1,0 +1,1207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Regression Chorme" parallel="false" preserve-order="true">
+
+    <!-- regression -->
+
+	<!-- test resource library -->
+	
+	<test name="add_security_to_file">
+		<classes>
+			<class name="tests_resource_library.AddSecurityToFile"></class>
+		</classes>
+	</test>
+	
+	<test name="create_delete_folder">
+		<classes>
+			<class name="tests_resource_library.CreateDeleteFolder"></class>
+		</classes>
+	</test>
+	
+	<test name="add_security_to_folder">
+		<classes>
+			<class name="tests_resource_library.AddSecurityToFolder"></class>
+		</classes>
+	</test>
+	
+	<test name="view_list_of_secured_folders">
+		<classes>
+			<class name="tests_resource_library.ViewListOfSecuredFolders"></class>
+		</classes>
+	</test>
+	
+	<test name="edit_resource_folder">
+		<classes>
+			<class name="tests_resource_library.EditResourceFolder"></class>
+		</classes>
+	</test>
+	
+	<test name="move_edit_delete_file">
+		<classes>
+			<class name="tests_resource_library.MoveEditDeleteFile"></class>
+		</classes>
+	</test>
+	
+	<test name="search_file_folder_name">
+		<classes>
+			<class name="tests_resource_library.SearchFileFolderName"></class>
+		</classes>
+	</test>
+	
+	<test name="add_new_files_via_upload">
+		<classes>
+			<class name="tests_resource_library.AddNewFilesViaUpload"></class>
+		</classes>
+	</test>
+	
+	<test name="move_resource_folder">
+		<classes>
+			<class name="tests_resource_library.MoveResourceFolder"></class>
+		</classes>
+	</test>
+	
+	<test name="add_file_to_private_folder">
+		<classes>
+			<class name="tests_resource_library.AddFileToPrivateFolder"></class>
+		</classes>
+	</test>
+	
+	<test name="sort_private_folder_headers">
+		<classes>
+			<class name="tests_resource_library.SortPrivateFolderHeaders"></class>
+		</classes>
+	</test>
+	
+	<test name="add_approvers_to_file">
+		<classes>
+			<class name="tests_resource_library.AddApproversToFile"></class>
+		</classes>
+	</test>
+	
+	<test name="copy_file_link">
+		<classes>
+			<class name="tests_resource_library.CopyFileLink"></class>
+		</classes>
+	</test>
+	
+	<test name="Copy_Link_On_File_From_View_Only_Folder">
+		<classes>
+			<class name="tests_resource_library.CopyLinkOnFileFromViewOnlyFolder"></class>
+		</classes>
+	</test>
+	
+	<test name="Edit_Existing_Folder_To_View_Only">
+		<classes>
+			<class name="tests_resource_library.EditExistingFolderToViewOnly"></class>
+		</classes>
+	</test>
+	
+	<test name="Attempt_To_Edit_File_In_View_Only_Folder">
+		<classes>
+			<class name="tests_resource_library.AttemptToEditFileInViewOnlyFolder"></class>
+		</classes>
+	</test>
+	
+	<test name="Create_SubFolders_In_View_Only_Folder">
+		<classes>
+			<class name="tests_resource_library.CreateSubFoldersInViewOnlyFolder"></class>
+		</classes>
+	</test>
+	
+	<!--
+	<test name="Move_File_From_View_Only_To_Non_View_Only_Folder">
+		<classes>
+			<class name="tests_resource_library.MoveFileFromViewOnlyToNonViewOnlyFolder"></class>
+		</classes>
+	</test>
+	-->
+	
+	<test name="Update_View_Only_Folder_To_Non_View_Only">
+		<classes>
+			<class name="tests_resource_library.UpdateViewOnlyFolderToNonViewOnly"></class>
+		</classes>
+	</test>
+	
+	<!--
+	<test name="Viewing_And_Replying_To_Approval">
+		<classes>
+			<class name="tests_resource_library.ViewingAndReplyingToApproval"></class>
+		</classes>
+	</test>
+	-->
+	
+	<!-- test workroom events -->
+
+	<test name="respond_to_event">
+		<classes>
+			<class name="tests_workroom_events.RespondToEvent"></class>
+		</classes>
+	</test>
+	
+	<test name="clear_response_to_event">
+		<classes>
+			<class name="tests_workroom_events.ClearResponseToEvent"></class>
+		</classes>
+	</test>
+	
+	<test name="add_notes_to_event_reponse">
+		<classes>
+			<class name="tests_workroom_events.AddNotesToEventReponse"></class>
+		</classes>
+	</test>
+	
+	<!--
+	<test name="create_goto_meeting_event">
+		<classes>
+			<class name="tests_workroom_events.CreateGoToMeetingEvent"></class>
+		</classes>
+	</test>
+	-->
+	<test name="print_upcoming_events">
+		<classes>
+			<class name="tests_workroom_events.PrintUpcomingEvents"></class>
+		</classes>
+	</test>
+    
+    <test name="respond_to_create_event_with_custom_video_conferencing_url">
+		<classes>
+			<class name="tests_workroom_events.CreateEventWIthCustomVideoConferencingURL"></class>
+		</classes>
+	</test>
+	
+	 <test name="take_event_attendance">
+		<classes>
+			<class name="tests_workroom_events.TakeEventAttendance"></class>
+		</classes>
+	</test>
+	
+	<test name="view_event_attendees">
+		<classes>
+			<class name="tests_workroom_events.ViewEventAttendees"></class>
+		</classes>
+	</test>
+	
+	<test name="copy_work_room_event">
+		<classes>
+			<class name="tests_workroom_events.CopyWorkroomEvent"></class>
+		</classes>
+	</test>
+	
+	<test name="view_all_workroom_events">
+		<classes>
+			<class name="tests_workroom_events.ViewAllWorkroomEvents"></class>
+		</classes>
+	</test>
+	
+	<test name="view_upcoming_events_tile_view">
+		<classes>
+			<class name="tests_workroom_events.ViewUpcomingEventsTileView"></class>
+		</classes>
+	</test>
+	
+	<test name="view_upcoming_events_expanded_view">
+		<classes>
+			<class name="tests_workroom_events.ViewAllWorkroomEvents"></class>
+		</classes>
+	</test>
+	
+	<test name="view_upcoming_events_list_view">
+		<classes>
+			<class name="tests_workroom_events.ViewUpcomingEventsListView"></class>
+		</classes>
+	</test>
+	
+	<test name="attach_poll_to_new_event">
+		<classes>
+			<class name="tests_workroom_events.AttachPollToNewEvent"></class>
+		</classes>
+	</test>
+	
+	<test name="attach_survey_to_new_event">
+		<classes>
+			<class name="tests_workroom_events.AttachSurveyToNewEvent"></class>
+		</classes>
+	</test>
+	
+	<test name="attach_existing_book_to_event">
+		<classes>
+			<class name="tests_workroom_events.AttachExistingBookToEvent"></class>
+		</classes>
+	</test>
+	
+	<test name="attach_existing_resource_to_event">
+		<classes>
+			<class name="tests_workroom_events.AttachedExistingResourceToEvent"></class>
+			</classes>
+     </test>
+     
+     <test name="attach_an_approval_to_event">
+		<classes>
+			<class
+				name="tests_workroom_events.AttachAnApprovalToEvent"></class>
+		</classes>
+	</test>
+	
+	<test name="remove_attached_survey_from_event">
+		<classes>
+			<class name="tests_workroom_events.RemoveAttachedSurveyFromEvent"></class>
+		</classes>
+	</test>
+	
+	<test name="remove_attached_book_from_event">
+		<classes>
+			<class name="tests_workroom_events.RemoveAttachedBookFromEvent"></class>
+		</classes>
+	</test>
+	
+	<test name="remove_an_attached_approval_on_event">
+		<classes>
+			<class
+				name="tests_workroom_events.RemoveAnAttachedApprovalOnEvent"></class>
+		</classes>
+	</test>
+	
+	<!-- need a staging verison of this
+	 <test name="tests_agenda">
+		<classes>
+			<class name="tests_workroom_events.AgendaTab"></class>
+		</classes>
+	</test>
+	-->
+	
+	<test name="export_event_to_calander">
+		<classes>
+			<class
+				name="tests_workroom_events.ExportEventToCalander"></class>
+		</classes>
+	</test>
+	
+	<test name="Create_Event_With_Micorsoft_Teams_URL">
+		<classes>
+			<class
+				name="tests_workroom_events.CreateEventWithMicorsoftTeamsURL"></class>
+		</classes>
+	</test>
+	
+	<!-- test workroom home -->
+
+	<test name="create_welcome_message_with_iframe_video">
+		<classes>
+			<class
+				name="tests_workroom_home.CreateWelcomeMessageWithIframeVideo"></class>
+		</classes>
+	</test>
+	
+	<test name="Error_Message_Copy_Base_64_Image">
+		<classes>
+			<class
+				name="tests_workroom_home.ErrorMessageCopyBase64Image"></class>
+		</classes>
+	</test>
+    
+	<test name="create_welcome_message_with_line_breaks">
+		<classes>
+			<class
+				name="tests_workroom_home.CreateWelcomeMessageWithLineBreaks"></class>
+		</classes>
+	</test>
+
+    <!-- developers fixed but brittle -->
+    <!-- broke again 01/27/2021-->
+	<test name="create_welcome_message_with_uploaded_image">
+		<classes>
+			<class
+				name="tests_workroom_home.CreateWelcomeMessageWithUploadedImage"></class>
+		</classes>
+	</test>
+	
+	<test name="assign_remove_workroom_administrator">
+		<classes>
+			<class
+				name="tests_workroom_home.AssignRemoveWorkroomAdministrator"></class>
+		</classes>
+	</test>
+	
+	<test name="assign_remove_workroom_chair">
+		<classes>
+			<class
+				name="tests_workroom_home.AssignRemoveWorkroomChair"></class>
+		</classes>
+	</test>
+	
+	<test name="edit_welcome_text">
+		<classes>
+			<class
+				name="tests_workroom_home.EditWelcomeText"></class>
+		</classes>
+	</test>
+	
+	<test name="collapse_expand_welcome_text">
+		<classes>
+			<class
+				name="tests_workroom_home.CollapseExpandWelcomeText"></class>
+		</classes>
+	</test>
+	
+	<test name="add_workroom_news_message">
+		<classes>
+			<class
+				name="tests_workroom_home.AddWorkroomNewsMessage"></class>
+		</classes>
+	</test>
+	
+	<test name="view_workroom_member_profile">
+		<classes>
+			<class
+				name="tests_workroom_home.ViewWorkroomMemberProfile"></class>
+		</classes>
+	</test>
+	
+	<test name="manage_workroom_member_visibility">
+		<classes>
+			<class
+				name="tests_workroom_home.ManageWorkroomMemberVisibility"></class>
+		</classes>
+	</test>
+
+	<test name="add_remove_workroom_accounts">
+		<classes>
+			<class
+				name="tests_workroom_home.AddRemoveWorkroomAccounts"></class>
+		</classes>
+	</test>
+	
+	<test name="message_workroom_users_diff_tabs">
+		<classes>
+			<class name="tests_workroom_home.MessageWorkroomUsersDiffTabs"></class>
+		</classes>
+	</test>
+
+	<!-- test intergrations -->
+	
+	<!--
+	<test name="configure_goto_meeting">
+		<classes>
+			<class name="tests_intergrations.ConfigureGoToMeeting"></class>
+		</classes>
+	</test>
+	-->
+	<test name="configure_zoom">
+		<classes>
+			<class name="tests_intergrations.ConfigureZoom"></class>
+		</classes>
+	</test>
+
+	<!-- tests directory -->
+
+	<test name="term_info_with_everything">
+		<classes>
+			<class name="tests_directory.TermInfoWithEverything"></class>
+		</classes>
+	</test>
+
+	<test name="terminfo_with_everything_no_end_date">
+		<classes>
+			<class
+				name="tests_directory.TermInfoWithEverythingNoEndDate"></class>
+		</classes>
+	</test>
+
+	<test name="add_remove_profile_photo">
+		<classes>
+			<class name="tests_directory.AddRemoveProfilePhoto"></class>
+		</classes>
+	</test>
+
+	<test name="add_remove_profile_resume">
+		<classes>
+			<class name="tests_directory.AddRemoveProfileResume"></class>
+		</classes>
+	</test>
+	
+    <!-- Test [ add_remove_user_categories] removed due to issue with category switching positions -->
+	<!--
+	<test name="add_remove_user_categories">
+		<classes>
+			<class name="tests_directory.AddRemoveUserCategories"></class>
+		</classes>
+	</test>
+	-->
+    
+    <test name="hide_company_contact_from_other_users">
+		<classes>
+			<class name="tests_directory.HideCompanyContactFromOtherUsers"></class>
+		</classes>
+	</test>
+	
+	 <test name="hide_personal_contact_from_other_users">
+		<classes>
+			<class name="tests_directory.HidePersonalContactFromOtherUsers"></class>
+		</classes>
+	</test>
+	
+	 <test name="hide_user_from_directory">
+		<classes>
+			<class name="tests_directory.HideUserFromDirectory"></class>
+		</classes>
+	</test>
+	
+	<test name="download_directory_excel">
+		<classes>
+			<class name="tests_directory.DownloadDirectoryExcel"></class>
+		</classes>
+	</test>
+	
+	<test name="download_directory_pdf">
+		<classes>
+			<class name="tests_directory.DownloadDirectoryPDF"></class>
+		</classes>
+	</test>
+	
+	<test name="download_directory_at_glance">
+		<classes>
+			<class name="tests_directory.DownloadDirectoryAtGlance"></class>
+		</classes>
+	</test>
+	
+	<test name="contact_user">
+		<classes>
+			<class name="tests_directory.ContactUser"></class>
+		</classes>
+	</test>
+	
+	<test name="message_users">
+		<classes>
+			<class name="tests_directory.MessageUsers"></class>
+		</classes>
+	</test>
+	
+	<test name="view_profile">
+		<classes>
+			<class name="tests_directory.ViewProfile"></class>
+		</classes>
+	</test>
+	
+	<test name="search_by_name_fields">
+		<classes>
+			<class name="tests_directory.SearchByNameFields"></class>
+		</classes>
+	</test>
+	
+	<test name="search_by_workrooms">
+		<classes>
+			<class name="tests_directory.SearchByWorkrooms"></class>
+		</classes>
+	</test>
+	
+	<test name="search_by_officer_role">
+		<classes>
+			<class name="tests_directory.SearchByOfficerRole"></class>
+		</classes>
+	</test>
+	
+	<test name="search_by_user_category">
+		<classes>
+			<class name="tests_directory.SearchByUserCategory"></class>
+		</classes>
+	</test>
+	
+	<test name="add_multiple_users">
+		<classes>
+			<class name="tests_directory.AddMultipleUsers"></class>
+		</classes>
+	</test>
+	
+	<test name="Search_By_Personal_And_Company_Address">
+		<classes>
+			<class name="tests_directory.SearchByPersonalAndCompanyAddress"></class>
+		</classes>
+	</test>
+	
+	<test name="Search_By_Term_Date">
+		<classes>
+			<class name="tests_directory.SearchByTermDate"></class>
+		</classes>
+	</test>
+	
+	<test name="Assign_Remove_Workroom_From_User_Profile">
+		<classes>
+			<class name="tests_directory.AssignRemoveWorkroomFromUserProfile"></class>
+		</classes>
+	</test>
+
+	<test name="Make_Company_Personal_Info_Preferred_Contact">
+		<classes>
+			<class name="tests_directory.MakeCompanyPersonalInfoPreferredContact"></class>
+		</classes>
+	</test>
+	
+	<test name="Save_Alternate_Contact_Information">
+		<classes>
+			<class name="tests_directory.SaveAlternateContactInformation"></class>
+		</classes>
+	</test>
+	
+    <!-- settings -->
+	
+	<test name="set_user_to_system_administrator">
+		<classes>
+			<class name="tests_settings.SetUserToSystemAdministrator"></class>
+		</classes>
+	</test>
+	
+	<test name="set_user_to_mobile_only">
+		<classes>
+			<class name="tests_settings.SetUserToMobileOnly"></class>
+		</classes>
+	</test>
+	
+	<test name="deactivate_messaging_for_user">
+		<classes>
+			<class name="tests_settings.DeactivateMessagingForUser"></class>
+		</classes>
+	</test>
+	
+	<test name="set_user_access_to_manage_files">
+		<classes>
+			<class name="tests_settings.SetUserAccessToManageFiles"></class>
+		</classes>
+	</test>
+	
+	<test name="set_user_to_visible">
+		<classes>
+			<class name="tests_settings.SetUserToVisible"></class>
+		</classes>
+	</test>
+	
+	<test name="set_user_to_hidden">
+		<classes>
+			<class name="tests_settings.SetUserToHidden"></class>
+		</classes>
+	</test>
+	
+	<test name="deactivate_resources_for_user">
+		<classes>
+			<class name="tests_settings.DeactivateResourcesForUser"></class>
+		</classes>
+	</test>
+	
+	<test name="restrict_workroom_for_user">
+		<classes>
+			<class name="tests_settings.RestrictWorkroomForUser"></class>
+		</classes>
+	</test>
+	
+	<test name="Set-User-To-Enable-Private-Directory">
+		<classes>
+			<class name="tests_settings.SetUserToEnablePrivateDirectory"></class>
+		</classes>
+	</test>
+	
+	<test name="Set-User-To-Disable-Private-Directory">
+		<classes>
+			<class name="tests_settings.SetUserToDisablePrivateDirectory"></class>
+		</classes>
+	</test>
+	
+	<test name="Set-User-Hidden-In-Workroom">
+		<classes>
+			<class name="tests_settings.SetUserHiddenInWorkroom"></class>
+		</classes>
+	</test>
+	
+	<test name="Set-User-Visible-In-Workroom">
+		<classes>
+			<class name="tests_settings.SetUserVisibleInWorkroom"></class>
+		</classes>
+	</test>
+	
+	<test name="Allow-User-To-Edit-Profile-ContactInfo">
+		<classes>
+			<class name="tests_settings.AllowUserToEditProfileContactInfo"></class>
+		</classes>
+	</test>
+	
+	<test name="Add-Existing-Users-To-A-Workroom">
+		<classes>
+			<class name="tests_settings.AddExistingUsersToAWorkroom"></class>
+		</classes>
+	</test>
+	
+	<test name="Allow-User-To-Add-Files-To-Workroom">
+		<classes>
+			<class name="tests_settings.AllowUserToAddFilesToWorkroom"></class>
+		</classes>
+	</test>
+	
+	<test name="Set-User-To-View-Only-Books">
+		<classes>
+			<class name="tests_settings.SetUserToViewOnlyBooks"></class>
+		</classes>
+	</test>
+	
+	<test name="Validate-User-Role-Permissions">
+		<classes>
+			<class name="tests_settings.ValidateUserRolePermissions"></class>
+		</classes>
+	</test>
+	
+	<test name="Create_Edit_Delete_Event_Category">
+		<classes>
+			<class name="tests_settings.CreateEditDeleteEventCategory"></class>
+		</classes>
+	</test>
+	
+	<test name="Create_Edit_Delete_Group">
+		<classes>
+			<class name="tests_settings.CreateEditDeleteGroup"></class>
+		</classes>
+	</test>
+	
+	<test name="Create_Edit_Delete_User_Category">
+		<classes>
+			<class name="tests_settings.CreateEditDeleteUserCategory"></class>
+		</classes>
+	</test>
+	
+	<test name="Set_Workroom_To_View_Only_Books">
+		<classes>
+			<class name="tests_settings.SetWorkroomToViewOnlyBooks"></class>
+		</classes>
+	</test>
+	
+	<test name="Set_Workroom_Access_To_Events_Library_Collaborate">
+		<classes>
+			<class name="tests_settings.SetWorkroomAccessToEventsLibraryCollaborate"></class>
+		</classes>
+	</test>
+	
+	<test name="Create_Edit_Delete_Custom_Fields">
+		<classes>
+			<class name="tests_settings.CreateEditDeleteCustomFields"></class>
+		</classes>
+	</test>
+	
+	<test name="Create_Edit_Delete_Custom_Field Group">
+		<classes>
+			<class name="tests_settings.CreateEditDeleteCustomFieldGroup"></class>
+		</classes>
+	</test>
+	
+	<test name="Update_Profiles_With_Custom_Field_Data">
+		<classes>
+			<class name="tests_settings.UpdateProfilesWithCustomFieldData"></class>
+		</classes>
+	</test>
+	
+	<test name="Term_Info_With_Everything_Settings">
+		<classes>
+			<class name="tests_settings.TermInfoWithEverythingSettings"></class>
+		</classes>
+	</test>
+	
+	<test name="Unlock_Profile">
+		<classes>
+			<class name="tests_settings.UnlockProfile"></class>
+		</classes>
+	</test>
+	
+	<test name="Add_Edit_Delete_Officer_Role">
+		<classes>
+			<class name="tests_settings.AddEditDeleteOfficerRole"></class>
+		</classes>
+	</test>
+	
+	<test name="Change_Password_Settings">
+		<classes>
+			<class name="tests_settings.ChangePasswordSettings"></class>
+		</classes>
+	</test>
+	
+	 <!-- workroom collaborate -->
+	
+	<test name="duplicate_survey">
+		<classes>
+			<class name="tests_workroom_collaborate.DuplicateSurvey"></class>
+		</classes>
+	</test>
+	
+	<test name="add_file_to_survey">
+		<classes>
+			<class name="tests_workroom_collaborate.AddFileToSurvey"></class>
+		</classes>
+	</test>
+	
+	<test name="create_edit_delete_survey_template">
+		<classes>
+			<class name="tests_workroom_collaborate.CreateEditDeleteSurveyTemplate"></class>
+		</classes>
+	</test>
+	
+	<test name="archive_survey_template">
+		<classes>
+			<class name="tests_workroom_collaborate.ArchiveSurveyTemplate"></class>
+		</classes>
+	</test>
+	
+	<test name="copy_survey_template">
+		<classes>
+			<class name="tests_workroom_collaborate.CopySurveyTemplate"></class>
+		</classes>
+	</test>
+	
+	<test name="copy_survey_template_to_template">
+		<classes>
+			<class name="tests_workroom_collaborate.CopySurveyTemplateToTemplate"></class>
+		</classes>
+	</test>
+	
+	<test name="archive_survey">
+		<classes>
+			<class name="tests_workroom_collaborate.ArchiveSurvey"></class>
+		</classes>
+	</test>
+
+	<test name="create_new_survey_using_survey_template">
+		<classes>
+			<class name="tests_workroom_collaborate.CreateNewSurveyUsingSurveyTemplate"></class>
+		</classes>
+	</test>
+	
+	<test name="view_survey_settings">
+		<classes>
+			<class name="tests_workroom_collaborate.ViewSurveySettings"></class>
+		</classes>
+	</test>
+	
+	<test name="edit_survey_settings">
+		<classes>
+			<class name="tests_workroom_collaborate.EditSurveySettings"></class>
+		</classes>
+	</test>
+	
+	<test name="make_survey_visible_not_visible">
+		<classes>
+			<class name="tests_workroom_collaborate.MakeSurveyVisibleNotVisible"></class>
+		</classes>
+	</test>
+	
+	<test name="move_survey_to_another_workroom">
+		<classes>
+			<class name="tests_workroom_collaborate.MoveSurveyToAnotherWorkroom"></class>
+		</classes>
+	</test>
+	
+	<test name="view_respond_to_survey_as_admin">
+		<classes>
+			<class name="tests_workroom_collaborate.ViewRespondToSurveyAsAdmin"></class>
+		</classes>
+	</test>
+	
+	<test name="view_respond_to_survey_non_admin">
+		<classes>
+			<class name="tests_workroom_collaborate.ViewRespondToSurveyNonAdmin"></class>
+		</classes>
+	</test>
+	
+	<!-- duplicate test same test in test_workroom_events
+	<test name="attach_survey_to_new_event">
+		<classes>
+			<class name="tests_workroom_collaborate.AttachSurveyToNewEvent"></class>
+		</classes>
+	</test>
+	-->
+	<test name="view_respond_to_poll_as_admin">
+		<classes>
+			<class name="tests_workroom_collaborate.ViewRespondToPollAsAdmin"></class>
+		</classes>
+	</test>
+	
+	<test name="view_respond_to_poll_non_admin">
+		<classes>
+			<class name="tests_workroom_collaborate.ViewRespondToPollNoneAdmin"></class>
+		</classes>
+	</test>
+	
+	<test name="archive_poll">
+		<classes>
+			<class name="tests_workroom_collaborate.ArchivePoll"></class>
+		</classes>
+	</test>
+	
+	<test name="move_poll_to_another_workroom">
+		<classes>
+			<class name="tests_workroom_collaborate.MovePollToAnotherWorkroom"></class>
+		</classes>
+	</test>
+	
+	<test name="Edit_Survey_Questions">
+		<classes>
+			<class name="tests_workroom_collaborate.EditSurveyQuestions"></class>
+		</classes>
+	</test>
+	
+	<test name="Edit_Poll_Questions">
+		<classes>
+			<class name="tests_workroom_collaborate.EditPollQuestions"></class>
+		</classes>
+	</test>
+	
+	<test name="Respond_To_Task">
+		<classes>
+			<class name="tests_workroom_collaborate.RespondToTask"></class>
+		</classes>
+	</test>
+	
+	<test name="Create_Delete_Schedulers">
+		<classes>
+			<class name="tests_workroom_collaborate.CreateDeleteSchedulers"></class>
+		</classes>
+	</test>
+	
+	<test name="Create-Edit-Delete-Schedulers">
+		<classes>
+			<class name="tests_workroom_collaborate.CreateEditDeleteSchedulers"></class>
+		</classes>
+	</test>
+	
+	<test name="Respond_To_Schedulers_Review_Results">
+		<classes>
+			<class name="tests_workroom_collaborate.RespondToSchedulersReviewResults"></class>
+		</classes>
+	</test>
+	
+	<test name="Download_Summary_Schedulers_Excel">
+		<classes>
+			<class name="tests_workroom_collaborate.DownloadSummarySchedulersExcel"></class>
+		</classes>
+	</test>
+	
+	<test name="Download_Summary_Schedulers_PDF">
+		<classes>
+			<class name="tests_workroom_collaborate.DownloadSummarySchedulersPDF"></class>
+		</classes>
+	</test>
+	
+	<test name="Download_Summary_Survey_Excel">
+		<classes>
+			<class name="tests_workroom_collaborate.DownloadSummarySurveyExcel"></class>
+		</classes>
+	</test>
+	
+	<test name="Download_Summary_Survey_PDF">
+		<classes>
+			<class name="tests_workroom_collaborate.DownloadSummarySurveyPDF"></class>
+		</classes>
+	</test>
+	
+	<test name="Download_Discussion_PDF">
+		<classes>
+			<class name="tests_workroom_collaborate.DownloadDiscussionPDF"></class>
+		</classes>
+	</test>
+	
+	<test name="Attach_Existing_Survey_To_New_Event">
+		<classes>
+			<class name="tests_workroom_collaborate.AttachExistingSurveyToNewEvent"></class>
+		</classes>
+	</test>
+	
+	<test name="Attach_Existing_Poll_To_New_Event">
+		<classes>
+			<class name="tests_workroom_collaborate.AttachExistingPollToNewEvent"></class>
+		</classes>
+	</test>
+	
+	<!-- workroom library -->
+	
+	<test name="Copy_Hand_Book">
+		<classes>
+			<class name="tests_workroom_library.CopyHandBook"></class>
+		</classes>
+	</test>
+	
+	<test name="Copy_HandBook_To_Template">
+		<classes>
+			<class name="tests_workroom_library.CopyHandBookToTemplate"></class>
+		</classes>
+	</test>
+	
+	<test name="Move_Book_Template_To_New_Workroom">
+		<classes>
+			<class name="tests_workroom_library.MoveBookTemplateToNewWorkroom"></class>
+		</classes>
+	</test>
+	
+	<test name="View_Handbook_In_Meeting_Book_Viewer">
+		<classes>
+			<class name="tests_workroom_library.ViewHandbookInMeetingBookViewer"></class>
+		</classes>
+	</test>
+	
+	<test name="Attach_Event_To_HandBook">
+		<classes>
+			<class name="tests_workroom_library.AttachEventToHandBook"></class>
+		</classes>
+	</test>
+	
+	<test name="Archive_Restore_Handbook">
+		<classes>
+			<class name="tests_workroom_library.ArchiveRestoreHandbook"></class>
+		</classes>
+	</test>
+	
+	<test name="Archive_Restore_Meeting_Book">
+		<classes>
+			<class name="tests_workroom_library.ArchiveRestoreMeetingBook"></class>
+		</classes>
+	</test>
+	
+	<test name="Move_Handbook_To_New_Workroom">
+		<classes>
+			<class name="tests_workroom_library.MoveHandbookToNewWorkroom"></class>
+		</classes>
+	</test>
+	
+	<test name="Share_Book_Template_All_Workrooms">
+		<classes>
+			<class name="tests_workroom_library.ShareBookTemplateAllWorkrooms"></class>
+		</classes>
+	</test>
+	
+	<test name="Navigate_To_Minutes_Manager">
+		<classes>
+			<class name="tests_workroom_library.NavigateToMinutesManager"></class>
+		</classes>
+	</test>
+	
+	<test name="Navigate_To_Take_Minutes">
+		<classes>
+			<class name="tests_workroom_library.NavigateToTakeMinutesViaMeetingBook"></class>
+		</classes>
+	</test>
+	
+	<test name="Navigate_To_Minutes_Via_Handbook">
+		<classes>
+			<class name="tests_workroom_library.NavigateToTakeMinutesViaHandbook"></class>
+		</classes>
+	</test>
+	
+	<test name="Message_Workroom_Users">
+		<classes>
+			<class name="tests_workroom_library.MessageWorkroomUsers"></class>
+		</classes>
+	</test>
+	
+	<test name="Add_Logo_To_Book_Template">
+		<classes>
+			<class name="tests_workroom_library.AddLogoToBookTemplate"></class>
+		</classes>
+	</test>
+	
+	<test name="Add_Security_To_Book_Template">
+		<classes>
+			<class name="tests_workroom_library.AddSecurityToBookTemplate"></class>
+		</classes>
+	</test>
+	
+	<test name="System_Admin_Select_Import_View_Minutes">
+		<classes>
+			<class name="tests_workroom_library.AdminSelectImportViewMinutes"></class>
+		</classes>
+	</test>
+	
+	<test name="copy_archived_meeting_book">
+		<classes>
+			<class name="tests_workroom_library.CopyArchivedMeetingBook"></class>
+		</classes>
+	</test>
+		
+	<test name="Advanced_Search_By_Alphabetical_Order_Decending_Accending">
+		<classes>
+			<class name="tests_workroom_library.AdvancedSearchByBookAlphabeticalOrderDecendingAccending"></class>
+		</classes>
+	</test>
+	
+	<test name="Advanced_Search_By_Book_Title">
+		<classes>
+			<class name="tests_workroom_library.AdvancedSearchByBookTitle"></class>
+		</classes>
+	</test>
+	
+	<test name="Advanced_Search_By_Crerate_Date">
+		<classes>
+			<class name="tests_workroom_library.AdvancedSearchByBookCreateDate"></class>
+		</classes>
+	</test>
+	
+	<test name="Advanced_Search_By_Event_Date">
+		<classes>
+			<class name="tests_workroom_library.AdvancedSearchByBookEventDate"></class>
+		</classes>
+	</test>
+	
+	<test name="Advanced_Search_By_Book_Visible">
+		<classes>
+			<class name="tests_workroom_library.AdvancedSearchByBookVisible"></class>
+		</classes>
+	</test>
+	
+	<test name="Advanced_Search_By_Last_Published_Book">
+		<classes>
+			<class name="tests_workroom_library.AdvancedSearchByLastPublishedBook"></class>
+		</classes>
+	</test>
+	
+	<test name="Advanced_Search_By_Archived_Book">
+		<classes>
+			<class name="tests_workroom_library.AdvancedSearchByArchivedBook"></class>
+		</classes>
+	</test>
+	
+	<test name="Rename_File_In_Meeting_Book">
+		<classes>
+			<class name="tests_workroom_library.RenameFileInMeetingBook"></class>
+		</classes>
+	</test>
+	
+	<test name="Create_View_Only_Meeting_Book">
+		<classes>
+			<class name="tests_workroom_library.CreateViewOnlyMeetingBook"></class>
+		</classes>
+	</test>
+	
+	<!-- general settings -->
+	
+	<test name="Set_Date_Time_Format">
+		<classes>
+			<class name="tests_general_settings.SetDateTimeFormat"></class>
+		</classes>
+	</test>
+	
+	<test name="Set_Time_Zone">
+		<classes>
+			<class name="tests_general_settings.SetTimeZone"></class>
+		</classes>
+	</test>
+	
+	<test name="Add_Update_Basic_Information">
+		<classes>
+			<class name="tests_general_settings.AddUpdateBasicInformation"></class>
+		</classes>
+	</test>
+	
+	<test name="Display_Directory_By_User_Category">
+		<classes>
+			<class name="tests_general_settings.DisplayDirectoryByUserCategory"></class>
+		</classes>
+	</test>
+	
+	<test name="Enable_Disable_Directory_Excel_Export">
+		<classes>
+			<class name="tests_general_settings.EnableDisableDirectoryExcelExport"></class>
+		</classes>
+	</test>
+	
+	<test name="Add_Remove_Logo_And_Logo_Url">
+		<classes>
+			<class name="tests_general_settings.AddRemoveLogoAndLogoUrl"></class>
+		</classes>
+	</test>
+	
+	<test name="Add_Remove_Print_Logo">
+		<classes>
+			<class name="tests_general_settings.AddRemovePrintLogo"></class>
+		</classes>
+	</test>
+	
+	<test name="Set_Directory_Display_Columns">
+		<classes>
+			<class name="tests_general_settings.SetDirectoryDisplayColumns"></class>
+		</classes>
+	</test>
+	
+		<!-- boardmember Access -->
+	
+	<test name="Board_Member_Add_File_To_Private_Folder">
+		<classes>
+			<class name="tests_boardmember_access.BoardMemberAddFileToPrivateFolder"></class>
+		</classes>
+	</test>
+	
+	<test name="Board_Member_Can_Add_Files_To_Workroom">
+		<classes>
+			<class name="tests_boardmember_access.BoardMemberCanAddFilesToWorkroom"></class>
+		</classes>
+	</test>
+	
+	<test name="Board_Member_Can_See_Files_By_Admin">
+		<classes>
+			<class name="tests_boardmember_access.BoardMemberCanSeeFilesByAdmin"></class>
+		</classes>
+	</test>
+	
+	<test name="Board_Member_Can_Not_See_Secured_Folder">
+		<classes>
+			<class name="tests_boardmember_access.BoardMemberCantSeeSecuredFolder"></class>
+		</classes>
+	</test>
+	
+	<test name="Board_Member_Cant_See_Secured_File">
+		<classes>
+			<class name="tests_boardmember_access.BoardMemberCantSeeSecuredFile"></class>
+		</classes>
+	</test>
+	
+	<test name="Board_Member_Workroom_Edit_Existing_Folder_To_View_Only">
+		<classes>
+			<class name="tests_boardmember_access.BoardMemberViewWorkroomViewOnlyFile"></class>
+		</classes>
+	</test>
+	
+	<test name="Attach_Create_New_Survey_to_Event_Existing_Site_Data">
+		<classes>
+			<class name="tests_boardmember_access.AttachCreateNewSurveytoEventExistingSiteData"></class>
+		</classes>
+	</test>
+	
+	<test name="Attach_Create_New_Poll_to_Event_Existing_Site_Data">
+		<classes>
+			<class name="tests_boardmember_access.AttachCreateNewPolltoEventExistingSiteData"></class>
+		</classes>
+	</test>
+	
+	<test name="Attach_Create_New_Book_to_Event_Existing_Site_Data">
+		<classes>
+			<class name="tests_boardmember_access.AttachCreateNewBookToEventExistingSiteData"></class>
+		</classes>
+	</test>
+	
+	<test name="Board_Member_Naviagte_To_Minutes_Manager">
+		<classes>
+			<class name="tests_boardmember_access.BoardMemberNaviagteToMinutesManager"></class>
+		</classes>
+	</test>
+	
+	<test name="Board_Member_Can_View_Minutes">
+		<classes>
+			<class name="tests_boardmember_access.BoardMemberCanViewMinutes"></class>
+		</classes>
+	</test>
+	
+	<!-- announcekit -->
+	
+	<test name="SysAdmin_Can_See_Whats_New">
+		<classes>
+			<class name="tests_announcekit.SysAdminCanSeeWhatsNew"></class>
+		</classes>
+	</test>
+	
+	<test name="Non_Admin_Can_Not_See_Whats_New">
+		<classes>
+			<class name="tests_announcekit.NonAdminCanNotSeeWhatsNew"></class>
+		</classes>
+	</test>
+	
+	
+</suite>
